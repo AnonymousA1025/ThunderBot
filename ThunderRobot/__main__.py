@@ -493,7 +493,7 @@ def get_help(update: Update, context: CallbackContext):
 #                            url="https://t.me/{}?start=help".format(
 #                                context.bot.username
 #                            ),
-                        )
+#                        )
                     ],
                     [
                         InlineKeyboardButton(
