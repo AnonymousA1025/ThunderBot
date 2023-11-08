@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption=f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ!\n<b><u>ᴜᴘᴛɪᴍᴇ:</u></b> <code>{}</code>".format(
+            caption="ᴛʜᴜɴᴅᴇʀ ɪs ᴀʟɪᴠᴇ!\n<b><u>ᴜᴘᴛɪᴍᴇ:</u></b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
